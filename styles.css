@@ -45,6 +45,20 @@ img {
 /* Tablet/Desktop overrides */
 
 @media(min-width: 681px) {
+  img {
+    width: 100px;
+    margin-left: 0 auto;
+    display: block;
+  }
+  body {
+    font-size: 20px;
+    padding: 100px;
+  }
+  .container {
+    max-width: 745px;
+    display: block;
+    margin: 0 auto;
+  }
   /* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
 }
 
