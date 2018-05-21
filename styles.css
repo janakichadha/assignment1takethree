@@ -21,7 +21,8 @@ You will find this is far easier than the opposite task of using CSS to cram you
 
 html, body {
   /* Sets default font-size to 16px, ensuring 1em = 16px; */
-  font-size: 16px;
+  font-size: 14px;
+  font-family: sans-serif;
 }
 
 /*center paragraphs and also space the text between pictures and text*/
@@ -29,11 +30,13 @@ html, body {
 p, {
   margin: 100px auto;
   display: block;
+  font-family: sans-serif;
 }
 
 body {
   margin: 200;
   padding: 40px;
+  font-family: sans-serif;
 }
 
 img {
